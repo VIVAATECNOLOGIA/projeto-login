@@ -9,6 +9,9 @@
    
     box-sizing: border-box;
 }
+body {
+    background-image: linear-gradient(to top, #49a09d #5f2c82);
+}
 
 body, html{
     background-color: #5f2c82;
@@ -27,6 +30,8 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width .3s, height 0.3s;
+    transition-timing-function: ease;
     
     background-color: white;
     width: 250px;
