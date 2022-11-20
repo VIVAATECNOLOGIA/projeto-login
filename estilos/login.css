@@ -58,6 +58,16 @@ section#login > div#formulario {
     display: block;
    
 }
+div.campo > input {
+    background-color: #49a09d;
+    font-size: 1em;
+    width: 100%;
+    /*width*/
+    height: 100%;
+    border-radius: 8px;
+    
+
+}
 
 div#formulario > h1 {
     text-align: center;
@@ -82,6 +92,7 @@ form > input[type=submit] {
 }
 form > input[type=submit]:hover {
     background-color: rgb(108, 160, 30);
+    
 }
 
 form > div.campo {
@@ -98,6 +109,15 @@ div.campo > label {
     display: none;
 }
 
+div.campo > i{
+color: white;
+background-color: black;
+
+padding: 5px;
+}
+
+
+
 form > a.botao {
     display: block;
     text-align: center;
@@ -110,6 +130,7 @@ form > a.botao {
    border: 1px solid #f2ff00;
     border-radius: 5px;
     text-decoration: none;
+
 }
 
 form > a.botao > i {
